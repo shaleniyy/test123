@@ -3,17 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Illia Hensiur</title>
+    <title>SECOND</title>
 </head>
-<body  style="background-color: rgb(158, 208, 215);">
-    <h1 style="text-align: center;" > <strong> Illia Hensiur 116180</strong></h1>
-    <hr>
-    <tr>
-        <th style="font-size: 60px;"> <p><em style="color: red;">FIRST PROjECT: </em></p> <br> <a href="http://127.0.0.1:5500/first_19.10/firstproject.html"> <strong>FIRST</strong></a></th> <br>
-        <hr>
-        <th style="font-size: 60px;"> <p><em style="color: red;">SECOND PROjECT: </em></p> <br> <a href="http://127.0.0.1:5500/first_19.10/secondproject.html"> <strong>SECOND</strong></a></th> <br>
-        <hr>
-        <marquee behavior="scroll" direction="left">Thank you!</marquee>
-    </tr>
+<body style="background-color: rgb(158, 208, 215);">
+    <h1 style="text-align: center;" > <strong> Registration </strong></h1>
+
+    <form action="http://127.0.0.1:5500/first_19.10/secondproject.html" method="get" style="font-size: 24px;">
+         
+            <label for="first_name">Name:</label>
+            <input type="text" id="first_name" name="first_name" required><br><br>
+      
+            <label for="last_name">Surname:</label>
+            <input type="text" id="last_name" name="last_name" required><br><br>
+      
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required><br><br>
+      
+            <label for="student_status">Are you a student?:</label>
+            <select id="student_status" name="student_status">
+              <option value="fulltime">Full-time</option>
+              <option value="parttime">Part-time</option>
+              <option value="notstudent">Non-student</option>
+            </select><br><br>
+      
+            <label for="university">University:</label>
+            <input type="text" id="university" name="university"><br><br>
+
+            <label for="dob">Email:</label>
+            <input type="text" id="dob" name="dob" required><br><br>
+      
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required><br><br>
+
+            <label for="driver_license">Do you have a driver's license?</label>
+            <input type="radio" id="yes" name="driver_license" value="yes">
+            <label for="yes">Yes</label>
+            <input type="radio" id="no" name="driver_license" value="no">
+            <label for="no">No</label><br><br>
+      
+            <label for="gender">gender:</label>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label><br><br>
+
+            <input type="submit" value="Sign Up"> 
+
+    </form>
+
 </body>
 </html>
